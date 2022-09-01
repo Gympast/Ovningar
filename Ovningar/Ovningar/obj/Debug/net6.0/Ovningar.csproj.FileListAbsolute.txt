@@ -1,0 +1,15 @@
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\bin\Debug\net6.0\Ovningar.exe
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\bin\Debug\net6.0\Ovningar.deps.json
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\bin\Debug\net6.0\Ovningar.runtimeconfig.json
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\bin\Debug\net6.0\Ovningar.dll
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\bin\Debug\net6.0\Ovningar.pdb
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\Ovningar.csproj.AssemblyReference.cache
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\Ovningar.GeneratedMSBuildEditorConfig.editorconfig
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\Ovningar.AssemblyInfoInputs.cache
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\Ovningar.AssemblyInfo.cs
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\Ovningar.csproj.CoreCompileInputs.cache
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\Ovningar.dll
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\refint\Ovningar.dll
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\Ovningar.pdb
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\Ovningar.genruntimeconfig.cache
+D:\skola\GitHub\Ovningar\Ovningar\Ovningar\obj\Debug\net6.0\ref\Ovningar.dll
