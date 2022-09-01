@@ -1,5 +1,7 @@
 ﻿using System.Collections.Concurrent;
 
+double a = 0;
+int b = 0;
 Console.WriteLine("Vad heter du?");
 string name = Console.ReadLine();
 Console.WriteLine($"Hej {name}!");
@@ -30,7 +32,73 @@ else
 Console.WriteLine("Hur många gånger ska jag hälsa på dig?");
 int antal = int.Parse(Console.ReadLine());
 
-for (int i = 0; i <= antal; i++)
+for (int i = 0; i < antal; i++)
 {
     Console.WriteLine($"Hej {name}!");
 }
+
+while (true)
+{
+    Console.WriteLine("Tal igen...");
+    string tal2 = Console.ReadLine();
+
+    if (double.TryParse(tal2, out double tal3))
+    {
+       a = a + tal3;
+        Console.WriteLine($"Summan är {a} hittils");
+        b++;
+    }
+    else
+    {
+        double sum = a/2;
+    Console.WriteLine($"Medelvärdet av dina tal är {a/2}");
+        break;
+    }
+}
+Console.WriteLine("Skriv ett tal igen...");
+double calc1 = double.Parse(Console.ReadLine());
+Console.WriteLine("välj tecken (+-*/)");
+string teck = Console.ReadLine();
+Console.WriteLine("Tal igen...");
+double calc2 = double.Parse(Console.ReadLine());
+
+if (teck == "+")
+{
+    Console.WriteLine($"{calc1} plus {calc2} blir {calc1+calc2}");
+}
+else if (teck == "-")
+{
+    Console.WriteLine($"{calc1} minus {calc2} blir {calc1-calc2}");
+}
+else if (teck == "*")
+{
+    Console.WriteLine($"{calc1} gånger {calc2} blir {calc1*calc2}");
+}
+else if (teck == "/")
+{
+    Console.WriteLine($"{calc1} genom {calc2} blir {calc1/calc2}");
+}
+Console.WriteLine("Skriv in en månad");
+int[] manadnr = new int[1];
+string manad = Console.ReadLine();
+switch (manad)
+{
+    case "januari":
+        Console.WriteLine("1");
+
+        break;
+
+    case "februari":
+        Console.WriteLine("2");
+        break;
+
+    case "mars":
+        Console.WriteLine("3");
+        break;
+
+    default:
+        Console.WriteLine("Det va la fan ingen månad");
+        break;
+}
+
+Console.ReadKey();
