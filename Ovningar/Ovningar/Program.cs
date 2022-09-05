@@ -6,7 +6,7 @@ Console.WriteLine("Vad heter du?");
 string name = Console.ReadLine();
 Console.WriteLine($"Hej {name}!");
 Console.WriteLine("Vad är ditt lösenord?");
-string pass = Console.ReadLine();
+string pass = Console.ReadLine().ToLower();
 
 if (pass == "lösen")
 {
